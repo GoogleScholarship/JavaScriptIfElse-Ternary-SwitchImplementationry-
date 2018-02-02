@@ -1,5 +1,7 @@
 ![Alt text](GoogleScholarship.png?raw=true "Badge")
 
+AUTHOR OF THIS SOLUTION IS a developer [a link](https://github.com/MichaelDimmitt)
+
 this is a Grow with Google Challenge Scholarship.3-month challenge course  
 with learning matirial and quizes.Plus mentor support  
 
