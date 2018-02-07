@@ -2,13 +2,12 @@ var start;
 
 for (var num = 60; num >=0; num--){
   start =
-    (num === 50) ? console.log("Orbiter transfers from ground to internal power"):
-      (num === 31) ? console.log("Ground launch sequencer is go for auto sequence start"):
-        (num === 16) ? console.log("Activate launch pad sound suppression system"):
-          (num === 10) ? console.log("Activate main engine hydrogen burnoff system"):
-            (num === 6)  ? console.log ("Main engine start"):
-              (num === 0) ? console.log("Solid rocket booster ignition and liftoff!"):
+    (num === 50) ? ("Orbiter transfers from ground to internal power"):
+      (num === 31) ? ("Ground launch sequencer is go for auto sequence start"):
+        (num === 16) ? ("Activate launch pad sound suppression system"):
+          (num === 10) ? ("Activate main engine hydrogen burnoff system"):
+            (num === 6)  ? ("Main engine start"):
+              (num === 0) ? ("Solid rocket booster ignition and liftoff!"):
+                (start) ? console.log(start) : "";
                 console.log("T-"+num+" seconds");
 }
-
-
