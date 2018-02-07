@@ -10,3 +10,5 @@ for (var num = 60; num >=0; num--){
               (num === 0) ? console.log("Solid rocket booster ignition and liftoff!"):
                 console.log("T-"+num+" seconds");
 }
+
+
